@@ -32,8 +32,24 @@ main {
 
 iframe {
     position: relative;
-    top: 13%;
-    left: 7.5%;
-    width: 85.5%;
-    height: 75%;
+    top: 12.8%;
+    left: 7.25%;
+    width: 86%;
+    height: 75.1%;
+}
+
+
+#redes img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 12px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.507);
+    box-sizing: border-box;
+}
+
+#redes img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.582);
+    transform: translate(-6%, -6%);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.507);
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
